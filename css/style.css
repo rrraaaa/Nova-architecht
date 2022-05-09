@@ -1,56 +1,70 @@
-.header{
-  
-    min-height: 81px;
-    display: flex;
-    justify-content: space-between;
+.header {
+  min-height: 81px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header__content{
-    align-items: center;
-    min-height: 100%;
-    
-    display: flex;
-    justify-content: space-between;
+.header__img {
+  margin-left: 55px;
 }
 
-.header__menu{
-    margin-right: 38px;
-    display: flex;
+.header__content {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.header__menu-item{
-    text-decoration: none;
-    font-family: Work Sans;
-font-size: 14px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #222;
-margin-right: 93px;
-}
-.header__menu-item:hover{
-    color: #F55D48;
-}
-.header__menu-item:last-child{
-    margin-right: 0px;
+.header__menu {
+  margin-right: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-.header__button{
-    min-width: 141px;
-    background-color: #F55D48;
-    color: #fff;
-    min-height: 100%;
-    border: none;
-    min-height: 100%;
+.header__menu-item {
+  text-decoration: none;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222;
+  margin-right: 93px;
 }
 
-.header__button-span{
-    font-family: Work Sans;
-font-size: 13px;
-font-weight: 700;
-line-height: 20px;
-letter-spacing: 0em;
+.header__menu-item:hover {
+  color: #F55D48;
+}
 
+.header__menu-item:last-child {
+  margin-right: 0px;
+}
 
+.header__button {
+  min-width: 141px;
+  background-color: #F55D48;
+  color: #fff;
+  min-height: 100%;
+  border: none;
+  min-height: 100%;
+}
+
+.header__button-span {
+  font-family: Work Sans;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
 }
