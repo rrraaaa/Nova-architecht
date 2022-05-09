@@ -70,6 +70,10 @@
   letter-spacing: 0em;
 }
 
+.introduction {
+  margin-bottom: 50px;
+}
+
 .introduction__container {
   max-width: 80%;
   margin: 0 auto;
@@ -95,4 +99,118 @@
   text-align: left;
   max-width: 466px;
   margin-bottom: 37px;
+}
+
+.new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.new_text {
+  font-size: 63px;
+  color: #574B4B;
+  font-family: "Coda", cursive;
+}
+
+.new_txt {
+  color: #574B4B;
+  font-family: Work Sans;
+  font-size: 15px;
+  margin-left: 12%;
+}
+
+.new_img {
+  margin-top: 2px;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.new__top {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.new__slider {
+  height: 140px;
+  width: 140px;
+  border-radius: 140px;
+  background: #F55D48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.new__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.new_pict {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-ordinal-group: 4;
+      -ms-flex-order: 3;
+          order: 3;
+  width: 650px;
+  height: 532px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  max-width: 85%;
+}
+
+.new__pict img {
+  width: 600px;
+  height: 532px;
+}
+
+.new_txt3 {
+  color: #574B4B;
+  font-family: Work Sans;
+  font-size: 14px;
+  -webkit-box-ordinal-group: 5;
+      -ms-flex-order: 4;
+          order: 4;
+  margin-top: 4%;
+  max-width: 80%;
+  margin-bottom: 78px;
+}
+
+.new_pic {
+  -webkit-box-ordinal-group: 6;
+      -ms-flex-order: 5;
+          order: 5;
 }
