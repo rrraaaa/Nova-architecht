@@ -72,6 +72,7 @@
   
   .introduction {
     margin-bottom: 50px;
+    
   }
   
   .introduction__container {
@@ -100,9 +101,7 @@
     max-width: 466px;
     margin-bottom: 37px;
   }
-  .introduction__img{
-      width: 100%;
-  }
+   
   .new {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -211,8 +210,83 @@
     margin-bottom: 78px;
   }
   
+.koi_container{
+   
+}
+
   .new_pic {
     -webkit-box-ordinal-group: 6;
         -ms-flex-order: 5;
             order: 5;
   }
+
+ .koi_text{
+     color:#574B4B;
+     font-size: 63px;
+     font-family:Coda ;
+     margin-left: 20px;
+     max-width: 70%;
+ 
+ }
+ .koi_img{
+    margin-left:60px;
+ }
+
+
+ 
+ .koi_item{
+ 
+   max-width: 100%;
+   position: absolute;
+   top: 10;
+   right: 0;
+   left: 25%;
+   max-width: 100%;
+      display: flex;
+      justify-content: center;
+        order: 6;
+ 
+ }
+.koi_container{
+    
+}
+
+ 
+.koi_bums{
+  font-size: 31px;
+  font-family: "Coda", cursive;
+  color: #574B4B;
+  margin-left: 66px;
+  max-width: 72%;
+}
+
+.koi_bums2{
+  font-size: 18px;
+  color: #574B4B;
+  font-family: Work Sans;
+  margin-top: 80px;
+  margin-left: 40px;
+  max-width: 100%;
+}
+
+.koi_button{
+ margin-left: 1100px;
+ position: absolute;
+ top: 2870px;
+ 
+}
+
+.koi_vector{
+  margin-top: 350px;
+  margin-left:60px;
+}
+
+.koi_2vec{
+  margin-left: -1165px;
+  max-width: 100%;
+}
+
+.koi_3vec{
+  margin-left: 1035px;
+  max-width: 100%;
+}
