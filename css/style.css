@@ -70,6 +70,12 @@
   letter-spacing: 0em;
 }
 
+._container {
+  max-width: 80%;
+  margin: 0 auto;
+  color: #574B4B;
+}
+
 .introduction {
   margin-bottom: 50px;
 }
@@ -286,4 +292,105 @@
   font-weight: 400;
   line-height: 23px;
   max-width: 244px;
+}
+
+.new_pic {
+  -webkit-box-ordinal-group: 6;
+  -ms-flex-order: 5;
+  order: 5;
+}
+
+.projects {
+  margin-bottom: 93px;
+  color: #574B4B;
+}
+
+.projects__title {
+  margin-bottom: 100.4px;
+  font-family: Coda;
+  font-size: 63px;
+  font-weight: 400;
+  line-height: 83px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.projects__content {
+  border-bottom: 1px solid #574B4B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__inner {
+  max-width: 100%;
+  margin-right: 16px;
+}
+
+.projects__inner-container {
+  max-width: 99%;
+  border-top: 1px solid #574B4B;
+  padding: 0px 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__text {
+  min-width: 280px;
+  padding-top: 27px;
+  margin-right: 66px;
+}
+
+.projects__titles-title {
+  margin-bottom: 46px;
+  font-family: Coda;
+  font-size: 31px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.projects__titles-subtitle {
+  font-family: Work Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.projects__arrow {
+  position: relative;
+  top: 327px;
+  width: 64px;
+  height: 64px;
+}
+
+.projects__outer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.projects__outer-arrow:last-child {
+  width: 64px;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  height: 64px;
 }
