@@ -544,3 +544,118 @@
   background: #F55D48;
   border-radius: 50%;
 }
+
+.footer__columns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 95%;
+}
+
+.footer__mail {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 33.33%;
+      flex-basis: 33.33%;
+  max-width: 306px;
+  background: #574B4B;
+  margin-right: 41px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 247px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-height: 247px;
+}
+
+.footer__img {
+  padding-left: 24px;
+}
+.footer__img img {
+  width: 31px;
+  padding-right: 24px;
+  height: 50px;
+}
+
+.footer__mail-content {
+  padding-left: 24px;
+  border: 1px solid #DBD9D9;
+  padding-right: 24px;
+}
+
+.footer__mail-title {
+  padding-top: 18px;
+  margin-bottom: 11px;
+  font-family: Coda;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.footer__mail-mail {
+  padding-bottom: 23px;
+  font-family: Work Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.footer__simple {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__simple-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  border-right: 1px solid #DBD9D9;
+  border-left: 1px solid #DBD9D9;
+  -ms-flex-preferred-size: 33%;
+      flex-basis: 33%;
+  padding: 111px 121px;
+}
+
+.footer__simple-column-items {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer__simple-column-item:first-child {
+  margin-bottom: 60px;
+}
